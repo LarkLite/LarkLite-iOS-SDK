@@ -1,0 +1,6 @@
+framework module LarkLite {
+  umbrella header "LarkLite.h"
+
+  export *
+  module * { export * }
+}

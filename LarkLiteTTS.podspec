@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LarkLiteTTS'
-  s.version          = '1.3.0'
+  s.version          = '1.3.0-fw'
   s.summary          = 'LarkLite SDK libs for iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  # s.ios.vendored_frameworks = 'LarkLite.framework'
-  s.ios.vendored_libraries = 'libsynthesizer.a'
+  s.ios.vendored_frameworks = 'LarkLite.framework'
+  # s.ios.vendored_libraries = 'libsynthesizer.a'
   
   # s.resource_bundles = {
   #  'LarkLite' => ['Assets/*.trf']
